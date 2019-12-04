@@ -7,7 +7,7 @@
     <style>
         #fin {
             width: 200px;
-            height: 100px;
+            height: 50px;
             margin: auto;
             border: 1px solid black;
             position: absolute;
@@ -40,7 +40,7 @@
             background-repeat: no-repeat;
         }
 
-        #menu {
+        #menus {
             margin-right: 3cm;
             width: 190px;
             height: 40px;
@@ -49,18 +49,18 @@
             background-color: #52BABF;
         }
 
-        #menu ol a {
+        #menus ol a {
             text-decoration: none;
             list-style-type: none;
         }
 
-        #menu ol li:hover {
+        #menus ol li:hover {
             background-color: #52BABF;
             text-decoration: none;
             color: black;
         }
 
-        #menu ol a li {
+        #menus ol a li {
             list-style-type: none;
             float: right;
         }
@@ -74,24 +74,35 @@
             font-family: 'Extreme';
             src: url('./Extreme.ttf');
         }
+
+        footer {
+            width: 400px;
+            margin: auto;
+            position: absolute;
+            top: 150%;
+            color: white;
+            font-family: 'Extreme';
+        }
     </style>
 </head>
 
 <body>
     <h1>La Liga</h1>
-    <div id="menu">
+    <div id="menus">
         <ol>
-            <a href="Estadisticas.html"><li>Estadisticas</li></a>
+            <a href="Estadisticas.html">
+                <li>Estadisticas</li>
+            </a>
         </ol>
     </div>
-    <div id="foto"></div>
     <br>
-    <tfoot>
-        <div id="fin">
-            <a href="Formulario.html">Ayúdanos a mejorar la página</a>
-        </div>
-    </tfoot>
 
+    <div id="fin">
+        <a href="Formulario.html">Ayúdanos a mejorar la página</a>
+    </div>
+    <footer>
+       <h2>Copyright by Anton</h2>
+    </footer>
 </body>
 
 </html>
