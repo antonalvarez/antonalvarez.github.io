@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>LaLigaSantader 2019/2020</title>
     <style>
-        #fin{
+        #fin {
             width: 200px;
             height: 100px;
             margin: auto;
             border: 1px solid black;
+            position: absolute;
+            top: 150%;
+            right: 50%;
+            background-color: #52BABF;
+            color: black;
         }
-        #fin a{
+
+        #fin a {
             text-decoration: none;
             padding: 10px 10px 10px 20px;
         }
-        div#foto {
-            height: 700px;
-            background-image: url(https://www.fotoefectos.com/images/201912/03/fotoefectos.com__final_4606120990705199236_.jpg?act=81);
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
+
 
         div {
             width: 100%;
@@ -30,48 +32,49 @@
             align-items: center;
         }
 
-        #menu {
-            position: absolute;
-            top: 50%;   
+        body {
+            width: 100%;
+            height: 100%;
+            background-image: url(https://www.fotoefectos.com/images/201912/03/fotoefectos.com__final_4606120990705199236_.jpg?act=81);
+            background-size: cover;
+            background-repeat: no-repeat;
         }
 
-        img#imagen {
-            width: 100%;
-            height: 200px;
-        }
-      
-        #menu ol li{     
-            margin-bottom: 0.3cm;   
-            width: 110px; 
-            max-width: 130px;
-            text-decoration: none;
-            display: block;
+        #menu{
+            margin-right: 3cm;
+            width: 190px;
+            height: 40px;
             border: 1px solid black;
-            padding: 10px 10px 10px 10px;
-            color: white;
-            background-color: #52BABF;            
+            float: right;
+            background-color: #52BABF;
         }
-        #menu ol li:hover{
+
+        #menu ol a{
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+        #menu ol li:hover {
             background-color: #52BABF;
             text-decoration: none;
             color: black;
         }
+    #menu ol a li{
+        list-style-type: none;
+        float: right;
+    }
+        h1{
+            color: white;
+        }
+
     </style>
 </head>
 
 <body>
-    <thead>
-        <img id="imagen"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeOlT6QudjPnNW2mxj_N8Lb3qtHqpkwKO1INJr573uzUO0FOiTFQ&s">
-    </thead>
-    <div id="menu">  
+    <h1>La Liga Santander</h1>
+    <div id="menu">
         <ol>
-            <a href="Pichichis.html"><li>Pichichis</li></a> 
-            <a href="Zamora.html"><li>Zamora</li></a> 
-            <a href="Asistentes.html"><li>Asistentes</li></a>
-            <a href="Tarjeta Amarilla.html"><li>Tarjetas</li></a>
-            <a href="Zarra.html"><li>Zarra</li></a>
-            <a href="Clasificacion.html"><li>Clasificación</li></a>
+            <a href="estadisticas.html"><li>Estadisticas</li></a>
         </ol>
     </div>
     <div id="foto"></div>
