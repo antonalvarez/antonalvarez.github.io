@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <style>
+        div#foto {
+            height: 700px;
+            background-image: url(https://www.fotoefectos.com/images/201912/03/fotoefectos.com__final_4606120990705199236_.jpg?act=81);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        div {
+            width: 100%;
+            height: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+
+        #menu {
+            position: absolute;
+            top: 50%;   
+        }
+
+        img#imagen {
+            width: 100%;
+            height: 200px;
+        }
+      
+        #menu ol li{     
+            margin-bottom: 0.3cm;   
+            width: 110px; 
+            max-width: 130px;
+            text-decoration: none;
+            display: block;
+            border: 1px solid black;
+            padding: 10px 10px 10px 10px;
+            color: white;
+            background-color: #52BABF;            
+        }
+        #menu ol li:hover{
+            background-color: #52BABF;
+            text-decoration: none;
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
-    <p>Hola</p>
+    <thead>
+        <img id="imagen"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeOlT6QudjPnNW2mxj_N8Lb3qtHqpkwKO1INJr573uzUO0FOiTFQ&s">
+    </thead>
+    <div id="menu">  
+        <ol>
+            <a href="./Pichichis.html"><li>Pichichis</li></a> 
+            <a href="./Zamora.html"><li>Zamora</li></a> 
+            <a href="./Asistentes.html"><li>Asistentes</li></a>
+            <a href="./Tarjeta%20Amarilla.html"><li>Tarjeta amarilla</li></a>
+            <a href="./Tarjeta%20Roja.html"><li>Tarjeta roja</li></a>
+            <a href="./Clasificacion.html"><li>Clasificación</li></a>
+        </ol>
+    </div>
+    <div id="foto"></div>
 </body>
+
 </html>
