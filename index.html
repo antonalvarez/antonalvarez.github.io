@@ -40,7 +40,7 @@
             background-repeat: no-repeat;
         }
 
-        #menu{
+        #menu {
             margin-right: 3cm;
             width: 190px;
             height: 40px;
@@ -49,7 +49,7 @@
             background-color: #52BABF;
         }
 
-        #menu ol a{
+        #menu ol a {
             text-decoration: none;
             list-style-type: none;
         }
@@ -59,14 +59,21 @@
             text-decoration: none;
             color: black;
         }
-    #menu ol a li{
-        list-style-type: none;
-        float: right;
-    }
-        h1{
-            color: white;
+
+        #menu ol a li {
+            list-style-type: none;
+            float: right;
         }
 
+        h1 {
+            color: white;
+            font-family: 'Extreme';
+        }
+
+        @font-face {
+            font-family: 'Extreme';
+            src: url('./Extreme.ttf');
+        }
     </style>
 </head>
 
@@ -74,7 +81,9 @@
     <h1>La Liga Santander</h1>
     <div id="menu">
         <ol>
-            <a href="estadisticas.html"><li>Estadisticas</li></a>
+            <a href="estadisticas.html">
+                <li>Estadisticas</li>
+            </a>
         </ol>
     </div>
     <div id="foto"></div>
@@ -84,6 +93,7 @@
             <a href="Formulario.html">Ayúdanos a mejorar la página</a>
         </div>
     </tfoot>
+
 </body>
 
 </html>
